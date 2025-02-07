@@ -135,7 +135,7 @@ export default function Hero() {
         <img
           src={HeroImage}
           alt="Hero"
-          className="w-64 md:w-80 lg:w-96 rounded-lg shadow-lg border-4 mask mask-hexagon"
+          className="w-64 md:w-80 lg:w-96 rounded-lg shadow-lg border-4 mask mask-hexagon object-contain"
         />
       </motion.div>
       </div>

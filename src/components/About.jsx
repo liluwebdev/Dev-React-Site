@@ -35,7 +35,7 @@ export default function About() {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h2 className="text-4xl font-bold">About Me</h2>
+        <h2 className="text-6xl font-bold uppercase">About Me</h2>
         <p className="mt-4 text-lg">
           I am a multi-disciplinary designer and developer with experience in various creative and technical fields.
           My work focuses on bridging design and development to create seamless digital experiences.
@@ -80,9 +80,10 @@ export default function About() {
             key={index}
             src={images[index]}
             alt="About Image"
-            className="w-full max-w-md h-[500px] object-cover object-center rounded-lg shadow-lg"
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
+            className="w-full max-w-md h-[500px] object-contain object-center rounded-lg shadow-lg"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
           />
         </motion.div>

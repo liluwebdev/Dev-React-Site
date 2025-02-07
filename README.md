@@ -1,8 +1,32 @@
-# React + Vite
+# 🚀 Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **React + TailwindCSS + Framer Motion** portfolio website showcasing my **design & development** skills. The site features smooth animations, an auto-playing image slideshow, and dynamic content loading from JSON.
 
-Currently, two official plugins are available:
+## 🎨 Live Demo  
+Coming soon.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 📂 Features
+✅ **Smooth Page Transitions** (Framer Motion)  
+✅ **Auto-Playing Image Slideshow** (JSON-based)  
+✅ **Fixed Background with Smooth Scrolling**  
+✅ **Scroll-based Navigation** (Down/Up Arrows)  
+✅ **Dynamic Image Imports from JSON**  
+
+---
+
+## 🛠️ Technologies Used
+| **Category**      | **Technologies**  |
+|------------------|----------------|
+| **Frontend**      | React, Vite, TailwindCSS, DaisyUI  |
+| **Animations**    | Framer Motion  |
+| **Icons**        | React Icons  |
+| **Dynamic Data**  | JSON-based image & project loading  |
+
+---
+
+## 📥 Installation & Setup
+1️⃣ **Clone this repository:**
+```sh
+git clone https://github.com/liluwebdev/Dev-React-Site.git

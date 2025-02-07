@@ -1,23 +1,27 @@
 import { motion } from "framer-motion";
 
+const getImage = (imagePath) => {
+  return new URL(`../assets/${imagePath}`, import.meta.url).href;
+};
+
 // Dummy project data
 const projects = [
   {
     title: "Dev Portfolio",
     description: "This portfolio that I built with React, Tailwind, Motion.",
-    image: "/project1.jpg", // Replace with actual image paths
+    image: "dev-site-mockup.png", // Replace with actual image paths
     link: "#",
   },
   {
     title: "Art, Design, & Education Portfolio",
     description: "Another portfolio I created to place my creative works including curriculum I've built.",
-    image: "/project2.jpg",
+    image: "lindsey-portfolio-mockup.png",
     link: "#",
   },
   {
     title: "Digital Dreamers",
     description: "A website I built in Wordpress using the Astra theme and utilizing the new Wordpress editor.",
-    image: "/project3.jpg",
+    image: "digital-dreamers-portfolio.png",
     link: "#",
   },
   {
@@ -48,7 +52,7 @@ export default function Projects() {
             whileHover={{ scale: 1.05 }}
           >
             <figure>
-              <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+              <img src={getImage(project.image)} alt={project.title} className="w-full h-[250px] object-cover object-top" />
             </figure>
             <div className="card-body">
               <h3 className="card-title">{project.title}</h3>

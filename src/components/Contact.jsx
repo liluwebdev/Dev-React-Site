@@ -14,7 +14,8 @@ export default function Contact() {
           setShowArrow(false);
         }
       };
-  
+
+
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
     }, []);
