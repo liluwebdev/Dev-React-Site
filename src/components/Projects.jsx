@@ -27,7 +27,7 @@ const projects = [
   {
     title: "Github Repositories",
     description: "Projects I've created to showcase my knowledge in React, JS, Wordpress, PHP.",
-    image: "/project4.jpg",
+    image: "code_image.png",
     link: "https://github.com/liluwebdev/",
   },
 ];

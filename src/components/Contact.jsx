@@ -79,7 +79,7 @@ export default function Contact() {
           </div>
 
           {/* Resume Download Button */}
-          <a href="/resume.pdf" download className="btn btn-outline btn-primary w-full md:w-auto">
+          <a href="/lilu_dev_resume_2025.pdf" download className="btn btn-outline btn-primary w-full md:w-auto">
             Download Resume
           </a>
         </motion.div>
