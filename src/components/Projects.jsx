@@ -4,31 +4,31 @@ const getImage = (imagePath) => {
   return new URL(`../assets/${imagePath}`, import.meta.url).href;
 };
 
-// Dummy project data
+// Project Data
 const projects = [
   {
     title: "Dev Portfolio",
     description: "This portfolio that I built with React, Tailwind, Motion.",
-    image: "dev-site-mockup.png", // Replace with actual image paths
-    link: "#",
+    image: "dev-site-mockup.png", 
+    link: "https://github.com/liluwebdev/Dev-React-Site",
   },
   {
     title: "Art, Design, & Education Portfolio",
     description: "Another portfolio I created to place my creative works including curriculum I've built.",
     image: "lindsey-portfolio-mockup.png",
-    link: "#",
+    link: "https://github.com/liluwebdev/lilu-portfolio",
   },
   {
     title: "Digital Dreamers",
     description: "A website I built in Wordpress using the Astra theme and utilizing the new Wordpress editor.",
     image: "digital-dreamers-portfolio.png",
-    link: "#",
+    link: "https://www.digitaldreamers.me",
   },
   {
     title: "Github Repositories",
     description: "Projects I've created to showcase my knowledge in React, JS, Wordpress, PHP.",
     image: "/project4.jpg",
-    link: "#",
+    link: "https://github.com/liluwebdev/",
   },
 ];
 
