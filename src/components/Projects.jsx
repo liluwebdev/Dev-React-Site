@@ -9,19 +9,19 @@ const projects = [
   {
     title: "Dev Portfolio",
     description: "This portfolio that I built with React, Tailwind, Motion.",
-    image: "dev-site-mockup.png", 
+    image: "responsive-website-image.png",
     link: "https://github.com/liluwebdev/Dev-React-Site",
   },
   {
     title: "Art, Design, & Education Portfolio",
     description: "Another portfolio I created to place my creative works including curriculum I've built.",
-    image: "lindsey-portfolio-mockup.png",
+    image: "responsive-website-image.png",
     link: "https://github.com/liluwebdev/lilu-portfolio",
   },
   {
     title: "Digital Dreamers",
     description: "A website I built in Wordpress using the Astra theme and utilizing the new Wordpress editor.",
-    image: "digital-dreamers-portfolio.png",
+    image: "responsive-website-image.png",
     link: "https://www.digitaldreamers.me",
   },
   {
