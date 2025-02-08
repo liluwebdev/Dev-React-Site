@@ -70,7 +70,7 @@ export default function Hero() {
     return (
       <motion.section
         id="home"
-        className="min-h-screen flex items-center justify-center text-center px-6 md:px-20"
+        className="min-h-screen flex items-center justify-center text-center px-6 md:px-20 pt-20"
         initial={{ opacity: 0, scale: .8}}
         animate={{ opacity: 1, scale: 1}}
         transition={{ type: "spring", duration: 0.5, ease: "easeIn" }}

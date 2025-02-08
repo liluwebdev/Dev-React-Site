@@ -23,7 +23,7 @@ export default function About() {
   return (
     <motion.section
     id="about"
-    className="min-h-screen flex flex-col items-center justify-center px-6 md:px-20"
+    className="min-h-screen flex flex-col items-center justify-center px-6 md:px-20 pt-20"
     initial={{ opacity: 0 }}
     animate={{ opacity: 1 }}
     transition={{ duration: 0.5 }}

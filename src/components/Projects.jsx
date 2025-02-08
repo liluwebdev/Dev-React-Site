@@ -36,7 +36,7 @@ export default function Projects() {
   return (
     <motion.section
       id="projects"
-      className="min-h-screen flex flex-col items-center justify-center py-12 px-6"
+      className="min-h-screen flex flex-col items-center justify-center py-12 px-6 pt-20"
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}

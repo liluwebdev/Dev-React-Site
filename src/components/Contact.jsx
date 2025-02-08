@@ -23,7 +23,7 @@ export default function Contact() {
   return (
     <motion.section
       id="contact"
-      className="min-h-screen flex flex-col items-center justify-center py-12 px-6"
+      className="min-h-screen flex flex-col items-center justify-center py-12 px-6 pt-20"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
