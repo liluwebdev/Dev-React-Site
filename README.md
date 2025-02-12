@@ -3,7 +3,7 @@
 A fully responsive **React + TailwindCSS + Framer Motion** portfolio website showcasing my **design & development** skills. The site features smooth animations, an auto-playing image slideshow, and dynamic content loading from JSON.
 
 ## 🎨 Live Demo  
-Coming soon.
+[lilumedia.com](www.lilumedia.com)
 
 ---
 
