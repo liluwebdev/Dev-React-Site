@@ -40,6 +40,19 @@ export default function About() {
           I am a multi-disciplinary designer and developer with experience in various creative and technical fields.
           My work focuses on bridging design and development to create seamless digital experiences.
         </p>
+        <p className="mt-4 text-lg">
+          In my free time, I enjoy:
+          </p>
+          <div className="list-row">
+         <div className="flex items-center gap-2 border-t border-dashed border-t-base-content/5 py-2">
+         <span class="badge badge-xs badge-info">Send</span>
+         "test"
+       
+         </div>
+         
+
+       </div>
+
 
         {/* Icons Row (Programs, Frameworks, Languages) */}
         <motion.div
