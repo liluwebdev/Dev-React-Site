@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaInstagram, FaArrowUp } from "react-icons/fa";
+import  Form  from "../components/Form";
 
 export default function Contact() {
     const [showArrow, setShowArrow] = useState(false);
@@ -14,7 +15,6 @@ export default function Contact() {
           setShowArrow(false);
         }
       };
-
 
       window.addEventListener("scroll", handleScroll);
       return () => window.removeEventListener("scroll", handleScroll);
@@ -38,24 +38,7 @@ export default function Contact() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <h2 className="text-3xl font-bold mb-4">Get in Touch</h2>
-          <form className="flex flex-col space-y-4">
-            <input
-              type="text"
-              placeholder="Your Name"
-              className="input input-bordered w-full"
-            />
-            <input
-              type="email"
-              placeholder="Your Email"
-              className="input input-bordered w-full"
-            />
-            <textarea
-              placeholder="Your Message"
-              className="textarea textarea-bordered w-full"
-              rows="4"
-            />
-            <button className="btn btn-primary w-full">Send Message</button>
-          </form>
+        <Form />
         </motion.div>
 
         {/* Social Media & Resume Button */}
