@@ -1,7 +1,7 @@
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaWordpress, FaBootstrap, FaSass, FaFigma, FaSketch } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaPhp, FaReact, FaWordpress, FaBootstrap, FaSass, FaSketch } from "react-icons/fa";
 import { SiAdobecreativecloud, SiCanva, SiTailwindcss } from "react-icons/si";
 
 import img1 from "../assets/about_me_husband_lindsu.jpg"; // Replace with actual images
@@ -37,11 +37,16 @@ export default function About() {
       >
         <h2 className="text-6xl font-bold uppercase">About Me</h2>
         <p className="mt-4 text-lg">
-          I am a multi-disciplinary designer and developer with experience in various creative and technical fields.
-          My work focuses on bridging design and development to create seamless digital experiences.
+        My expertise spans JavaScript, React, WordPress, UX/UI design, and animation, 
+        blending technical precision with a creative touch. I’ve worked on everything 
+        from custom WordPress solutions to interactive educational tools, always striving 
+        to create digital experiences that are both functional and visually compelling.
         </p>
         <p className="mt-4 text-lg">
-          In my free time, I enjoy:
+        Beyond development, I have a strong foundation in education and curriculum design, 
+        making technology more accessible through engaging, well-structured learning experiences. 
+        Whether I’m coding, designing, or teaching, my goal is to build solutions that 
+        inspire creativity and innovation.
           </p>
           <div className="list-row">
          <div className="flex items-center gap-2 border-t border-dashed border-t-base-content/5 py-2">
@@ -65,7 +70,6 @@ export default function About() {
           <SiAdobecreativecloud />
           <FaSketch />
           <SiCanva />
-          <FaFigma />
 
           {/* Frameworks */}
           <FaBootstrap />

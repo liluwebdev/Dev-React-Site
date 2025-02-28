@@ -120,7 +120,10 @@ export default function Hero() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.5 }}
               >
-                Hello! I am a jack-of-all-trades and love to thrive in spaces that advance my knowledge and skills.
+               Hello! I'm passionate about crafting 
+               digital experiences. With a background in web design, front-end development, 
+               and creative technology, I specialize in building intuitive 
+               interfaces and interactive applications.
               </motion.p>
             )}
           </motion.div>
